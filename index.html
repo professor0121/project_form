@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Create an Account</title>
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- Left Section -->
+    <div class="left-section">
+       
+      <div class="welcome-text">
+        <h2>Let's Make It Happen<br />Together!</h2>
+            <div class="container1">
+                <div class="container2">
+                    <div class="container3">
+                        <div class="container4 ">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </div>
+    </div>
+
+    <!-- Right Section -->
+    <div class="right-section">
+      <div class="top-links">
+        <span>Already have an account?</span>
+        <a href="#">Sign In here!</a>
+      </div>
+
+      <h2>Create An Account</h2>
+      <form id="signup-form">
+        <div class="form-row">
+          <input type="text" id="firstName" placeholder="First Name" required/>
+          <input type="text" id="lastName" placeholder="Last Name" required/>
+        </div>
+        <div class="form-row">
+          <input type="email" id="email" placeholder="Email" required/>
+          <input type="text" id="address" placeholder="Address" required/>
+        </div>
+        <div class="form-row">
+          <input type="password" id="password" placeholder="Create Password" required/>
+          <input type="password" id="confirmPassword" placeholder="Confirm Password" required/>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" id="terms" required/>
+          <label for="terms">
+            By creating your account you accept our 
+            <a href="#">Terms &amp; Conditions</a>.
+          </label>
+        </div>
+        <button type="submit" class="btn">Sign Up</button>
+      </form>
+
+      <!-- Social Auth Buttons -->
+      <div class="social-auth">
+        <p>Or sign up with</p>
+        <button id="fb-btn" class="social-btn fb">Facebook</button>
+        <button id="twitter-btn" class="social-btn twitter">Twitter</button>
+      </div>
+
+      <footer>
+        <p>&copy; 2023 Company Inc. All rights reserved.</p>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Link to external JS -->
+  <script src="script.js"></script>
+</body>
+</html>
